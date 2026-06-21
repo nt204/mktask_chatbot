@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+backend/venv/
+backend/.env
+backend/__pycache__/
+uploads/
+
+# Node / React
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# MacOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
