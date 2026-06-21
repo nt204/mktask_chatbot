@@ -1,0 +1,66 @@
+.sprint-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.sprint-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sprint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sprint-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.sprint-goal {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin: 0;
+}
+
+.sprint-dates {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  width: fit-content;
+}
+
+.sprint-progress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.progress-bar-bg {
+  height: 8px;
+  background: var(--surface-light);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.5s ease-out;
+}
